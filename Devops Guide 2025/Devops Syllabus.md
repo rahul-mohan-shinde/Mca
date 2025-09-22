@@ -1,3 +1,18 @@
+### Tools
+ * kubernetes
+ * docker
+ * python
+ * aws
+ * prometheus
+ * Grafana
+ * Wireshark
+ * git
+ * Terraform
+ * Jenkins
+ * Ansible
+ * Bash
+ * 
+
 1. Linux Fundamentals
   * CLI (BASH)
   * Process and Permissions : ps, kill, chmod
