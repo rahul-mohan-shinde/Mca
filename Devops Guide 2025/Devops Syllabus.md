@@ -38,5 +38,19 @@
           
 7. CI/CD
      **Popular option**: Jenkins, Github action CI/CD, gitlab CI, Circle CI, Travis CI
-8. 
-    
+8. Infrastructure as Code (IaC)
+   1. provisioning
+      * terraform
+      * alt: pulumi
+   2. Configuring
+      * Ansible
+      * Alt : Puppet, Chef
+
+ 9. Orchestration and Management
+     **popular option:** Kubernates
+    * creating and managing k8s clusters
+    * deployment of applications on k8s
+    * k8s commands : apply , build, delete etc.
+ 10. Monitoring and Logging
+     **Popular option:** Prometeus, Grafana
+     Alt: ELK, Fluentd, AWS CloudWatch
