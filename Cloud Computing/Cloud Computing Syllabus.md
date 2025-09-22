@@ -1,0 +1,11 @@
+* Introduction to Cloud Computing (Definiton, Evolution, Characteristics, Benefits)
+* Cloud Service Models (SaaS, PaaS, IaaS, DaaS, FaaS)
+* Cloud Deployment Models (Public, Private,Hybrid)
+* Cloud Computing Architecture (Virtualization, Datacenters, Virtual Machines)
+* Virtualization Technology (Type1 and Type2 , VMs and Containers, Full and Para)
+* Cloud Storage((Object, File and Block Storage), Providers, Backups, Archives)
+* Cloud Security and Privacy (Privacy, and Compliance, IAM, ISO 27001, NIST)
+* Cloud Networking(VPC, SDN, Load Balancing)
+* Cloud Application Devlopment(DevOps,(CI/CD),COntainerization and Kubernetes)
+* Emerging Trend in Cloud Computing
+* Cloud Platforms and tools (AWS ( EC2, S3, RDS, Lambda), Asure(ARM),GCP etc.)
