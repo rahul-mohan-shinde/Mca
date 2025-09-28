@@ -1,5 +1,4 @@
-
-## 💻 Web Technology and PHP Framework (CodeIgniter 4+)
+# 💻 Web Technology and PHP Framework (CodeIgniter 4+)
 
 This document outlines the syllabus for a course on Web Technology, covering HTML5, CSS3, Responsive Web Design, and the PHP framework **CodeIgniter 4+**, concluding with database connectivity and deployment.
 
@@ -13,13 +12,13 @@ This document outlines the syllabus for a course on Web Technology, covering HTM
 
 ### Topics
 
-1.1 Introduction to **Web Technology**
-1.2 The architecture of **Web server** and **client**
-1.3 **HTML 5 - Audio Video Tag**
-1.4 **Semantic Elements**
-1.5 **Canvas** and **SVG**
-1.6 Introduction to **API**
-1.7 Transform (Translate, scale), **Drag and Drop**
+1. Introduction to **Web Technology**  
+2. The architecture of **Web server** and **client**  
+3. **HTML 5 - Audio Video Tag**  
+4. **Semantic Elements**  
+5. **Canvas** and **SVG**  
+6. Introduction to **API**  
+7. Transform (Translate, Scale), **Drag and Drop**
 
 ---
 
@@ -31,14 +30,14 @@ This document outlines the syllabus for a course on Web Technology, covering HTM
 
 ### Topics
 
-2.1 Architecture of **CSS**
-2.2 Introduction of **SCSS**, **CSS Modules**
-2.3 **CSS Framework – Bootstrap** (Introduction)
-2.4 **CSS grid**, **flexbox**
-2.5 **Selectors** and **Pseudo Classes**
-2.6 **Fonts** and **Text Effects**
-2.7 **Colors**, **Background Images**, and **Masks**
-2.8 **Transition**
+1. Architecture of **CSS**  
+2. Introduction of **SCSS**, **CSS Modules**  
+3. **CSS Framework – Bootstrap** (Introduction)  
+4. **CSS Grid**, **Flexbox**  
+5. **Selectors** and **Pseudo Classes**  
+6. **Fonts** and **Text Effects**  
+7. **Colors**, **Background Images**, and **Masks**  
+8. **Transition**
 
 ---
 
@@ -50,20 +49,20 @@ This document outlines the syllabus for a course on Web Technology, covering HTM
 
 ### Topics
 
-3.1 Introduction to **Responsive Web Design**
-    * Overview of responsive web design principles and its significance
-3.2 Introduction to **media queries** and **viewport meta tag**
-    * Responsive web design with devices (desktop, mobile, tablet)
-3.3 **Flexible Images and Media**
-    * Techniques for responsive images: `srcset`, `sizes` attributes, and `picture` element
-    * Implementing responsive video and other media
-3.4 **Web Forms**: Creating and handling user input forms for data collection
-3.5 **Responsive Typography**
-    * Principles of typography in web design
-    * Implementing fluid typography with CSS techniques
-    * Using web fonts and icon fonts for responsive design
-    * Fluid layout techniques
-    * Testing on multiple devices and screen sizes
+1. Introduction to **Responsive Web Design**  
+   - Overview of responsive web design principles and its significance  
+2. Introduction to **media queries** and **viewport meta tag**  
+   - Responsive web design with devices (desktop, mobile, tablet)  
+3. **Flexible Images and Media**  
+   - Techniques for responsive images: `srcset`, `sizes` attributes, and `picture` element  
+   - Implementing responsive video and other media  
+4. **Web Forms**: Creating and handling user input forms for data collection  
+5. **Responsive Typography**  
+   - Principles of typography in web design  
+   - Implementing fluid typography with CSS techniques  
+   - Using web fonts and icon fonts for responsive design  
+   - Fluid layout techniques  
+   - Testing on multiple devices and screen sizes
 
 ---
 
@@ -75,18 +74,18 @@ This document outlines the syllabus for a course on Web Technology, covering HTM
 
 ### Topics
 
-4.1 How to **Download & Install CodeIgniter + Composer** Folder
-4.2 File & **Directory Structure**
-4.3 **MVC Framework**
-4.4 **Controllers**
-4.5 **Views**
-4.6 **Routing Routes**
-4.7 **Form**, **form validation**
-4.8 How to **Upload Images**
-4.9 **File handling**
-4.10 **Sending Email**
-4.11 **Cookie** and **Session**
-4.12 **Restful** and **Restless API integration**
+1. How to **Download & Install CodeIgniter + Composer** Folder  
+2. File & **Directory Structure**  
+3. **MVC Framework**  
+4. **Controllers**  
+5. **Views**  
+6. **Routing Routes**  
+7. **Form**, **Form Validation**  
+8. How to **Upload Images**  
+9. **File Handling**  
+10. **Sending Email**  
+11. **Cookie** and **Session**  
+12. **RESTful** and **RESTless API Integration**
 
 ---
 
@@ -94,12 +93,12 @@ This document outlines the syllabus for a course on Web Technology, covering HTM
 
 | Hours | Credits | Course Outcome Mapping |
 | :---: | :---: | :---: |
-| 30 | 14 | CO5 (Implied, following the pattern) |
+| 30 | 14 | CO5 |
 
 ### Topics
 
-5.1 Introduction **MySQL**, **CRUD** operation with MySQL
-5.2 **Query builder**
-5.3 Performing **CRUD Operations in MySQL with CodeIgniter Framework**
-5.4 **Deployment**
-5.5 **Hosting** (AWS/Hostinger/Google Cloud)
+1. Introduction to **MySQL**, **CRUD Operations** with MySQL  
+2. **Query Builder**  
+3. Performing **CRUD Operations in MySQL with CodeIgniter Framework**  
+4. **Deployment**  
+5. **Hosting** (AWS / Hostinger / Google Cloud)
