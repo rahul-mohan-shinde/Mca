@@ -1,3 +1,4 @@
+"""
 # tuple of string type
 names = ('james', 'jack', 'eva')
 print(names)
@@ -12,11 +13,11 @@ temp = list(language)
 temp[1] = 'java'
 language = tuple(temp)
 print(language)
-"""
+
 del language
 del names
 print(names)
-"""
+
 numbers=(1,2,3,4 ,5,5)
 print(numbers[1:3])
 print(numbers.count(3))
@@ -57,3 +58,19 @@ print(value)
 get=country_capitals.get("india")
 print(get)
 #popitem
+#create set
+"""
+set={2,3,4,5,5} #set can't print duplicate value
+set.add(6)
+print(set)
+print(type(set))
+removedValue = set.discard(5)
+print("discart 5",set)
+setb={3,4,5,6}
+print('union using |:',set|setb)
+print('intersection using &:',set&setb) #perform diffeerence operation using &
+# print('intersection using intersectrion():',)
+
+print('defference using -:',set-setb)
+print('difference using difference():',set.difference(setb))
+
