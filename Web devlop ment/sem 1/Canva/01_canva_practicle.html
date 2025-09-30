@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<body>
+<canvas id="myCanvas" width="500" height="500" style="border:1px solid #d3d3d3;">
+  Your browser does not support the HTML canvas tag.
+</canvas>
+
+<script>
+  var c = document.getElementById("myCanvas");
+  var ctx = c.getContext("2d");
+
+  // Draw and color the line
+  ctx.strokeStyle = "blue"; // Line color
+  ctx.moveTo(0, 0);
+  ctx.lineTo(500, 500);
+  ctx.stroke();
+
+  // Draw and fill the circle
+  ctx.beginPath();
+  ctx.arc(250, 250, 70, 0, 2 * Math.PI);
+  ctx.fillStyle = "lightgreen"; // Circle fill color
+  ctx.fill();
+  ctx.strokeStyle = "green"; // Circle border color
+  ctx.stroke();
+
+ // Draw a text
+ ctx.font = "50px Arial";
+  ctx.fillStyle = "yellow";
+  ctx.fillText("Hello mam ! how is it ?",150,60);
+  
+  // Draw and fill the text
+  ctx.font = "50px Arial";
+  ctx.fillStyle = "red"; // Text color
+  ctx.fillText("It's Great", 25, 412);
+ 
+</script>
+</body>
+</html>
