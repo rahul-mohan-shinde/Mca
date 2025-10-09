@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>This is Trafic light...</h1>
+    <canvas id="myCanvas" width="600" height="600" stile="">
+
+    </canvas>
+    <script>
+        var c = document.getElementById("myCanvas");
+        var ctx = c.getContext("2d");
+        
+        ctx.beginPath();
+        ctx.moveTo(50,80);
+        ctx.lineTo(100,80);
+        
+        ctx.fillstroke="gray";
+        
+        ctx.stroke();
+
+        ctx.beginPath();
+        ctx.moveTo(100,160);
+        ctx.lineTo(100,80);
+        ctx.fillStyle="yellow";
+        ctx.fillstroke="yellow";
+        ctx.fill();
+        ctx.stroke();
+        
+        
+        ctx.beginPath();
+        ctx.rect(85, 180, 20, 500);
+        ctx.fillStyle="black";
+        ctx.fill();
+        ctx.stroke();
+
+        ctx.beginPath();
+        ctx.rect(70, 20, 50, 160);
+        ctx.fillStyle="black";
+        ctx.fill();
+        ctx.stroke();
+
+        ctx.beginPath();
+        ctx.arc(95, 50, 20, 0, 2 * Math.PI);
+        ctx.fillStyle="red";
+        ctx.fillstroke="red";
+        ctx.fill();
+        ctx.stroke();
+
+        ctx.beginPath();
+        ctx.arc(95, 100, 20, 0, 2 * Math.PI);
+        ctx.fillStyle="green";
+        ctx.fill();
+        ctx.stroke();
+
+        ctx.beginPath();
+        ctx.arc(95, 150, 20, 0, 2 * Math.PI);
+        ctx.fillStyle="yellow";
+        ctx.fill();
+        ctx.stroke();
+    </script>
+</body>
+</html>
