@@ -1,0 +1,127 @@
+/* 🌙 GitHub Dark Theme - Available Books Page */
+
+:root {
+  --bg: #0d1117;
+  --surface: #161b22;
+  --border: #30363d;
+  --text: #c9d1d9;
+  --primary: #238636;
+  --accent: #1f6feb;
+  --danger: #f85149;
+  --success: #2ea043;
+  --radius: 6px;
+  --font: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+}
+
+body {
+  background-color: var(--bg);
+  color: var(--text);
+  font-family: var(--font);
+  margin: 0;
+  padding: 20px;
+}
+
+/* 🔹 Container */
+.container {
+  background-color: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  max-width: 1000px;
+  margin: 40px auto;
+  padding: 25px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.4);
+}
+
+/* 🔹 Heading */
+.container h1 {
+  text-align: center;
+  color: #58a6ff;
+  font-size: 26px;
+  margin-bottom: 20px;
+}
+
+/* 🔹 Search bar */
+form {
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+input[type="text"] {
+  padding: 8px;
+  width: 300px;
+  border-radius: var(--radius);
+  border: 1px solid var(--border);
+  background: #0d1117;
+  color: var(--text);
+  outline: none;
+}
+
+input[type="text"]:focus {
+  border-color: var(--accent);
+}
+
+input[type="submit"] {
+  background-color: var(--accent);
+  color: white;
+  border: none;
+  padding: 8px 14px;
+  border-radius: var(--radius);
+  cursor: pointer;
+  margin-left: 10px;
+}
+input[type="submit"]:hover {
+  background-color: #388bfd;
+}
+
+/* 🔹 Table Styling */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+}
+
+th, td {
+  border: 1px solid var(--border);
+  padding: 10px;
+  text-align: left;
+}
+
+th {
+  background-color: #21262d;
+  color: #58a6ff;
+  text-transform: uppercase;
+}
+
+tr:nth-child(even) {
+  background-color: #1b1f24;
+}
+tr:hover {
+  background-color: #2d333b;
+}
+
+/* 🔹 Buttons & Status */
+.btn {
+  background-color: var(--primary);
+  border: none;
+  color: white;
+  padding: 6px 12px;
+  border-radius: var(--radius);
+  cursor: pointer;
+}
+.btn:hover {
+  background-color: #2ea043d0;
+}
+
+.status {
+  font-weight: bold;
+  padding: 5px 8px;
+  border-radius: var(--radius);
+}
+
+.status.green {
+  color: var(--success);
+}
+
+.status.red {
+  color: var(--danger);
+}

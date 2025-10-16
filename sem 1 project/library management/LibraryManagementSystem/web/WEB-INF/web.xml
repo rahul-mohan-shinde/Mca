@@ -1,0 +1,84 @@
+<web-app xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee
+         http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd"
+         version="3.1">
+
+    <!-- Register Servlet -->
+    <servlet>
+        <servlet-name>RegisterServlet</servlet-name>
+        <servlet-class>com.library.controller.RegisterServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>RegisterServlet</servlet-name>
+        <url-pattern>/RegisterServlet</url-pattern>
+    </servlet-mapping>
+
+    <!-- Login Servlet -->
+    <servlet>
+        <servlet-name>LoginServlet</servlet-name>
+        <servlet-class>com.library.controller.LoginServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>LoginServlet</servlet-name>
+        <url-pattern>/LoginServlet</url-pattern>
+    </servlet-mapping>
+
+    <!-- Available Books Servlet -->
+    <servlet>
+        <servlet-name>AvailableBooksServlet</servlet-name>
+        <servlet-class>com.library.controller.AvailableBooksServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>AvailableBooksServlet</servlet-name>
+        <url-pattern>/AvailableBooksServlet</url-pattern>
+    </servlet-mapping>
+
+    <!-- Borrow Book Servlet -->
+    <servlet>
+        <servlet-name>BorrowBookServlet</servlet-name>
+        <servlet-class>com.library.controller.BorrowBookServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>BorrowBookServlet</servlet-name>
+        <url-pattern>/BorrowBookServlet</url-pattern>
+    </servlet-mapping>
+
+    <!-- Issued Books Servlet -->
+    <servlet>
+        <servlet-name>IssuedBooksServlet</servlet-name>
+        <servlet-class>com.library.controller.IssuedBooksServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>IssuedBooksServlet</servlet-name>
+        <url-pattern>/IssuedBooksServlet</url-pattern>
+    </servlet-mapping>
+
+    <!-- Logout Servlet -->
+    <servlet>
+        <servlet-name>LogoutServlet</servlet-name>
+        <servlet-class>com.library.controller.LogoutServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>LogoutServlet</servlet-name>
+        <url-pattern>/LogoutServlet</url-pattern>
+    </servlet-mapping>
+    <servlet>
+    <servlet-name>AdminLoginServlet</servlet-name>
+    <servlet-class>com.library.controller.AdminLoginServlet</servlet-class>
+</servlet>
+<servlet-mapping>
+    <servlet-name>AdminLoginServlet</servlet-name>
+    <url-pattern>/AdminLoginServlet</url-pattern>
+</servlet-mapping>
+<servlet>
+    <servlet-name>AddBookServlet</servlet-name>
+    <servlet-class>com.library.controller.AddBookServlet</servlet-class>
+</servlet>
+<servlet-mapping>
+    <servlet-name>AddBookServlet</servlet-name>
+    <url-pattern>/AddBookServlet</url-pattern>
+</servlet-mapping>
+
+
+</web-app>

@@ -1,0 +1,96 @@
+/* ---------- Variables ---------- */
+:root {
+    --bg: #0d1117;             /* Page background */
+    --surface: #161b22;        /* Card/box background */
+    --text: #c9d1d9;           /* Main text */
+    --secondary-text: #8b949e; /* Secondary text */
+    --primary: #238636;         /* Button color */
+    --primary-hover: #2ea043;
+    --border: #30363d;
+    --radius: 8px;
+    --font: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+}
+
+/* ---------- Global ---------- */
+body {
+    background: var(--bg);
+    color: var(--text);
+    font-family: var(--font);
+    margin: 0;
+    padding: 0;
+}
+
+/* ---------- Box Container ---------- */
+.box {
+    background: var(--surface);
+    max-width: 450px;
+    margin: 60px auto;
+    padding: 30px;
+    border-radius: var(--radius);
+    box-shadow: 0 5px 15px rgba(0,0,0,0.5);
+    text-align: center;
+}
+
+/* Heading */
+.box h2 {
+    color: var(--primary);
+    margin-bottom: 25px;
+}
+
+/* Form Inputs */
+.box input[type=text],
+.box input[type=number] {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 20px;
+    border-radius: var(--radius);
+    border: 1px solid var(--border);
+    background-color: var(--bg);
+    color: var(--text);
+    outline: none;
+    font-size: 1rem;
+}
+
+.box input:focus {
+    border-color: var(--primary);
+}
+
+/* Submit Button */
+.box .btn {
+    width: 100%;
+    padding: 12px;
+    background-color: var(--primary);
+    color: white;
+    border: none;
+    border-radius: var(--radius);
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 1rem;
+    transition: 0.3s;
+}
+
+.box .btn:hover {
+    background-color: var(--primary-hover);
+}
+
+/* Back Link */
+.box .back {
+    display: inline-block;
+    margin-bottom: 20px;
+    color: var(--primary);
+    text-decoration: none;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.box .back:hover {
+    color: var(--primary-hover);
+}
+
+/* Responsive */
+@media screen and (max-width: 480px) {
+    .box {
+        margin: 30px 15px;
+        padding: 20px;
+    }
+}

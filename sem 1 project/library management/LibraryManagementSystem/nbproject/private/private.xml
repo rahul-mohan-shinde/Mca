@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-private xmlns="http://www.netbeans.org/ns/project-private/1">
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+        <group>
+            <file>file:/C:/Users/rahul/Desktop/LibraryManagementSystem/src/java/com/library/controller/RegisterServlet.java</file>
+            <file>file:/C:/Users/rahul/Desktop/LibraryManagementSystem/web/login.jsp</file>
+            <file>file:/C:/Users/rahul/Desktop/LibraryManagementSystem/src/java/com/library/controller/LoginServlet.java</file>
+            <file>file:/C:/Users/rahul/Desktop/LibraryManagementSystem/src/java/com/library/controller/AvailableBooksServlet.java</file>
+            <file>file:/C:/Users/rahul/Desktop/LibraryManagementSystem/web/availableBooks.jsp</file>
+            <file>file:/C:/Users/rahul/Desktop/LibraryManagementSystem/src/java/com/library/controller/BorrowBookServlet.java</file>
+            <file>file:/C:/Users/rahul/Desktop/LibraryManagementSystem/src/java/com/library/controller/ReturnBookServlet.java</file>
+            <file>file:/C:/Users/rahul/Desktop/LibraryManagementSystem/web/returnBooks.jsp</file>
+            <file>file:/C:/Users/rahul/Desktop/LibraryManagementSystem/web/myBorrowedBooks.jsp</file>
+            <file>file:/C:/Users/rahul/Desktop/LibraryManagementSystem/web/adminBorrowedBooks.jsp</file>
+            <file>file:/C:/Users/rahul/Desktop/LibraryManagementSystem/web/navbar.jsp</file>
+            <file>file:/C:/Users/rahul/Desktop/LibraryManagementSystem/web/adminDashboard.jsp</file>
+            <file>file:/C:/Users/rahul/Desktop/LibraryManagementSystem/web/viewBooks.jsp</file>
+            <file>file:/C:/Users/rahul/Desktop/LibraryManagementSystem/src/java/com/library/controller/UpdateBookServlet.java</file>
+            <file>file:/C:/Users/rahul/Desktop/LibraryManagementSystem/web/adminNavbar.jsp</file>
+            <file>file:/C:/Users/rahul/Desktop/LibraryManagementSystem/web/adminLogin.jsp</file>
+            <file>file:/C:/Users/rahul/Desktop/LibraryManagementSystem/web/addBook.jsp</file>
+            <file>file:/C:/Users/rahul/Desktop/LibraryManagementSystem/src/java/com/library/controller/LogoutServlet.java</file>
+            <file>file:/C:/Users/rahul/Desktop/LibraryManagementSystem/src/java/com/library/controller/DeleteBookServlet.java</file>
+            <file>file:/C:/Users/rahul/Desktop/LibraryManagementSystem/src/java/com/library/controller/AdminLoginServlet.java</file>
+            <file>file:/C:/Users/rahul/Desktop/LibraryManagementSystem/src/java/com/library/controller/AddBookServlet.java</file>
+            <file>file:/C:/Users/rahul/Desktop/LibraryManagementSystem/src/java/com/library/controller/AdminLogoutServlet.java</file>
+            <file>file:/C:/Users/rahul/Desktop/LibraryManagementSystem/web/index.html</file>
+            <file>file:/C:/Users/rahul/Desktop/LibraryManagementSystem/web/assets/css/site.css</file>
+            <file>file:/C:/Users/rahul/Desktop/LibraryManagementSystem/web/assets/css/navbar.css</file>
+            <file>file:/C:/Users/rahul/Desktop/LibraryManagementSystem/web/register.jsp</file>
+            <file>file:/C:/Users/rahul/Desktop/LibraryManagementSystem/web/assets/css/register.css</file>
+            <file>file:/C:/Users/rahul/Desktop/LibraryManagementSystem/web/assets/css/availableBooks.css</file>
+            <file>file:/C:/Users/rahul/Desktop/LibraryManagementSystem/web/assets/css/addBook.css</file>
+            <file>file:/C:/Users/rahul/Desktop/LibraryManagementSystem/web/assets/css/adminBorrowedBooks.css</file>
+            <file>file:/C:/Users/rahul/Desktop/LibraryManagementSystem/web/assets/css/adminDashboard.css</file>
+            <file>file:/C:/Users/rahul/Desktop/LibraryManagementSystem/web/studentWellcome.jsp</file>
+        </group>
+    </open-files>
+</project-private>
