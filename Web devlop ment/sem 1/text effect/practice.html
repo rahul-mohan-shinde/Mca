@@ -1,0 +1,61 @@
+body {
+  margin: 20px;
+}
+nav {
+	font-family:serif;
+  font-family:5 rem;
+}
+.font {
+	font-family:arial;
+  font-size: 50px;
+}
+.one{
+  font-family:Arial , sans-serif;
+  font-size:20px;
+  color: #444;
+  font-weight:900;
+  transition:0.9s ease;
+}
+.two{
+  font-family:"times new roman",serif;
+  font-size:24px;
+  font-weight:600;
+  color:white;
+  letter-spacing:8px;
+  text-shadow:0 0 10px #00f,0 0 20px #00f, 0 0 40px #00f;
+}
+.three {
+  font-family: "Courier New", monospace;
+  font-size: 18px;
+  word-spacing: 30px;
+  font-weight: 300;
+  -webkit-text-stroke: 2px #000;
+  color: transparent;
+  white-space: nowrap;
+  overflow: hidden;
+  border-right: 3px solid black;  /* FIXED: solide → solid */
+  width: 0;
+  animation: typing 4s steps(30) forwards, blink 0.7s infinite;  /* FIXED: forwrds → forwards */
+}
+
+@keyframes typing {
+  from { width: 0; }
+  to { width: 100%; }
+}
+
+/*@keyframes blink {*/
+/*  50% { border-color: transparent; }*/
+/*}*/
+
+.cap{
+  text-transform:capitalize;
+  font-size:50px;
+  font-weight:bold;
+  background:linear-gradient(180deg, #ff00ff, #00ffff);
+  -webkit-background-clip:text;
+  color:transparent;
+}
+.one:hover{
+  transform:scale(1.1);
+  color:red;
+}
