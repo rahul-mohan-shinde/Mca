@@ -1,0 +1,158 @@
+// print digeet in switch case
+import java.lang.*;
+
+class printDigit {
+  public static void main(String[] args) {
+
+   int a = 5;
+    switch (0) {
+      case 0:
+        	System.out.println("1");
+        	break;
+	case 1:
+        	System.out.println("1");
+        	break;
+	case 2:
+        	System.out.println("1");
+        	break;
+	case 3:
+        System.out.println("1");
+        	break;
+	case 4:
+        	System.out.println("1");
+        	break;
+	case 5:
+        	System.out.println("1");
+        	break;
+	case 6:
+        	System.out.println("1");
+        	break;
+	case 7:
+        	System.out.println("1");
+       		break;
+	case 8:
+        	System.out.println("1");
+       		break;
+      	default:
+        	System.out.println("no value found");
+        	break;
+    }
+  }
+}
+
+// calling of static variable
+class test{
+	static int x=100;
+	public static void main(String[] args){
+		System.out.println(x);
+		System.out.println(test.x);
+		test t= new test();
+		System.out.println(t.x);
+	
+	}
+}
+
+/*
+for the static variables the JVM provide the default values
+for the local variables the jvm won't provide the default 
+1. instance variables
+2. static varables
+3. 1-instance methods
+4. static method
+*/
+
+class Test1 {
+	//instance variables
+	int a = 10;
+	boolean b;
+	//static variables
+	static int c = 20;
+	static double d;
+	//instance methods
+	void m1(){
+		System.out.println(a);
+		System.out.println(b);
+		System.out.println(c);
+		System.out.println(d);
+	}
+	//static method
+	static void m2(){
+		Test1 t = new Test1();
+		System.out.println(t.a);
+	}
+	public static void main(String[] args){
+		Test1 t = new Test1();
+		t.m1();
+		m2();
+	}
+}
+
+/*
+
+Typecasting in java
+  1. Implicit casting 
+	a data type of lower size is assigned to a data type of higher size.
+  2. Explicit casting (narrowing conversion)
+  3. Boolean casting
+
+*/
+
+// wajp display a num witch is div by 5 into 1 to 50
+class div {
+	public static void main(String[] args){
+		for(int i=1; i<=50; i++){
+			if (i%5==0){
+				System.out.println(i);
+			}
+		}
+		System.out.println("invalid number");
+	}
+}
+
+/*
+
+Entry Controlls in while
+exit controlled loop in do while loop
+
+
+*/
+// to print a reverse of the number
+class reverse{
+	public static void main(String[] args){
+		int n = 123;
+		int rev = 0;
+		while( n > 0){
+			int r = n % 10;
+			rev = rev * 10 + r;
+ 			n = n / 10;
+		}
+		System.out.println(rev);
+	}
+}
+
+// to calculate sum of digits
+
+class sum {
+
+	public static void main(String [] args){
+		int n = 123;
+		int c = 0;
+		int sum=0;
+		while(n >0){
+			c = n % 10;
+			sum = sum + c;
+			n = n/10;
+		}
+		System.out.println(sum);
+	}
+
+}
+
+//num is palindrom or not
+class palindrom {
+	public static void main(String [] args){
+		
+	}
+}
+
+
