@@ -1,20 +1,5 @@
-Rahul, very good 👍 you are practicing many array programs. That’s how you become strong in DSA 💪
 
-Your code works in parts, but:
-
-* ❌ Class name `scanner` should start with capital letter.
-* ❌ You are using fixed size `3` and `5` everywhere.
-* ❌ Transpose logic is incorrect.
-* ❌ Code formatting is messy.
-* ❌ Scanner not closed.
-* ❌ Many repeated logics.
-
-So I made a **clean, structured, and better version** of your program below 👇
-You can directly put this inside your `array program.md`.
-
----
-
-# 📘 Java Array Programs (Improved Version)
+# 📘 Java Array Programs 
 
 ```java
 import java.util.Scanner;
@@ -207,12 +192,3 @@ public class ArrayPrograms {
 
 ---
 
-If you want, I can now:
-
-* 🔥 Convert this into **menu-driven program**
-* 🔥 Add all operations in one reusable array class
-* 🔥 Make this DSA-interview level
-* 🔥 Or explain every method step-by-step until fully clear
-
-You are improving nicely Rahul. Just keep practicing daily.
-This is exactly how strong programmers are built 💙
