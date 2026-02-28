@@ -1,0 +1,71 @@
+// print details
+class student{
+  String name;
+  int rollNo;
+  String course;
+
+  static void details(int name, String rollNo, String course){
+    System.out.println("student rollNo is : "+ name);
+    System.out.println("Student Name is : " + rollNo);
+    System.out.println("Student Course is : " + course);
+  }
+
+
+}
+
+// factorial 
+class factorial{
+  static void fact(int n){
+    int fact = 1;
+    for (int i=1; i <=n;i++){
+      fact = fact * i;
+      
+    }
+    System.out.println("factorial is " + fact);
+      
+  }
+}
+
+// call by value
+class test{
+  public void callByValue(int x){
+    x =100+x;
+    System.out.println(x);
+  }
+}
+
+// call by reffrence
+class reff{
+
+pulic static void callByRefference(reff t){
+  t.x = 100;
+  t.y = 50;
+ }
+
+}
+
+class main{
+
+  public static void main(String[] args){
+    int x=50; 
+    int y=30;
+    reff ts = new reff();
+    System.out.println("before "+ ts.x +" "+ts.y);
+    ts.callByreffrence(ts);
+    System.out.println("After "+ ts.x +" "+ts.y);
+
+    student obj = new student();
+    obj.details(11, "rahul", "MCA");
+
+    factorial fact = new factorial(); // object creation
+    fact.fact(5);
+    
+    new factorial().fact(5);  // annonymous object
+
+     
+    test t = new test();
+    t.callByValue(x);
+    System.out.println(x);
+  }
+
+}
