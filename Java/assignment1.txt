@@ -1,0 +1,86 @@
+class assign{
+
+// quetion 1
+  public static void printWorld(){
+    System.out.println("hello java");
+  }
+// quetion 2
+  public static void sumSeries(){
+    int n = 5;  
+    int sum = 0;
+    for (int i = 1 ; i <= n; i++){
+      sum = sum + i;
+
+    }
+    System.out.println("your nth num sum is : " + sum);
+  }
+
+// quetion 3 
+  public static void fibonacci(){
+
+
+/*
+
+f(n) = f(n-1) + f(n+2)
+
+*/
+
+int a = 0 , b = 1;
+int n = 50;
+int f;
+for (int i = 1; i <= n ; i++){
+  System.out.println(a + " ");
+  f =  a + b;
+  a = b;
+  b = f;
+
+}
+
+  }
+
+  public static void primNum(){
+    int n = 5;
+    int count = 0;
+    for (int i = 2 ; i <= (n/2) ; i++){
+     count ++;
+    }
+    if(count > 0){
+       System.out.println(n + " is prime");
+    } else {
+       System.out.println(n + " is not prime");
+    }
+
+  }
+
+  public static void sumEvenOdd(){
+    int n = 100;
+    int even = 0;
+    int odd = 0;
+    int sum = 0 ;
+    for (int i = 1; i <=n ; i++){
+      sum = sum + i;
+      if(i%2==0){
+        System.out.println("even : " + i);
+        even = even + i;
+      } else {
+         System.out.println("odd : " + i);
+         odd = odd + i; 
+      }
+      
+    }
+    System.out.println("sum of all degit " +sum);
+    System.out.println("sum of all even Num is : " + even);
+    System.out.println("sum of all odd Num is : " + odd);
+
+  };
+  public static void main(String[] args){
+
+  assign as = new assign();
+  
+  // as.printWorld();
+  // as.sumSeries();
+  // as.fibonacci();
+  // as.primNum();
+     as.sumEvenOdd();
+  }
+}
