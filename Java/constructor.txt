@@ -1,0 +1,102 @@
+import java.util.*;
+
+class calculation{
+  int sum(int a, int b){System.out.println(a+b);
+  return a+b;
+  }
+  double sum(float a , float b){System.out.println(a+b);
+  return a+b;
+  }
+
+// define class rectangle having members have length and breadth and calculate area of react angle.
+
+ void rect( int a , int b){
+
+ int rect = a * b;
+ System.out.println("area of rectangle " +rect);
+
+ }
+ void rect( float a , float b){
+
+ float rect = a * b;
+ System.out.println("area of rectangle " +rect);
+
+
+ }
+
+  public static void main(String args[]){
+    calculation c = new calculation();
+
+    c.sum(20,20);
+/*
+    Scanner sc = new Scanner(System.in);
+    System.out.println("enter your length of rect");
+    int a = sc.nextInt();
+    System.out.println("enter your breadth of rect");
+    int b = sc.nextInt();
+    c.rect(a,b);
+
+    sc.close();
+*/
+    float a2 = 3;
+    float b2 = 4;
+
+    c.rect(a2, b2);
+  }
+}
+
+class rectangle{
+  float length ;
+  float width ;
+
+  // this is constructor for rectangle
+
+  rectangle(float l , float w)
+  {
+    System.out.println("Constructing Rectangle...");
+    length = l;
+    width = w;
+
+  }
+
+  rectangle()
+  {
+    System.out.println("Constructing Rectangle...");
+    float length =0;
+    float width =0;
+
+  }
+  rectangle(float val)
+  {
+    System.out.println("Constructing Rectangle...");
+     length = width = val;
+  }
+
+  // compute and return area of a rectangle
+  float area()
+  {
+    return length*width;
+
+  }
+
+
+}
+
+class rectangle2{
+  public static void main(String args[]){
+    rectangle rect1 = new rectangle(4.6f,2.2f);
+    rectangle rect2 = new rectangle();
+    rectangle rect3 = new rectangle(3f);
+
+    float a;
+
+    a = rect1.area();
+    System.out.println("area of rectangle is : " + a);
+
+    a = rect2.area();
+    System.out.println("area of rectangle is " + a);
+
+    a = rect3.area();
+    System.out.println("area of rectangle is " + a);
+  }
+}
